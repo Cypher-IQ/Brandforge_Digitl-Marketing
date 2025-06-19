@@ -1,0 +1,46 @@
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.light {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+/* Navbar Mode Specific */
+body.light .navbar {
+  background-color: #ffffff;
+  color: #000;
+}
+
+body.dark .navbar {
+  background-color: #111;
+  color: #fff;
+}
+
+body.light .nav-links a {
+  color: #000;
+}
+
+body.dark .nav-links a {
+  color: #fff;
+}
+
+/* Brand Cards */
+body.light .brand-card {
+  background-color: #eaeaea;
+}
+
+body.dark .brand-card {
+  background-color: #2b2b2b;
+}
+
+/* Graph section canvas text */
+body.light canvas {
+  background-color: #fff;
+}
+
+body.dark canvas {
+  background-color: #fff;
+}
