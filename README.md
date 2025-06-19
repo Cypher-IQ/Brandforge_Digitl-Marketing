@@ -45,22 +45,31 @@ A modern, responsive, and feature-rich website for a digital marketing agency bu
 
 ## 📂 File Structure
 
-PulseKit/
+Frontend Battle/
 │
-├── index.html
-├── README.md
-├── style.css
-├── /scripts/
-│ ├── darkmode.js
-│ ├── ripple.js
-│ ├── chart.js
-│ └── scroll-effects.js
-├── /components/
-│ ├── navbar.html
-│ ├── loader.html
-│ ├── brand-kits.html
-│ ├── graph-section.html
-│ └── testimonials.html
+├── index.html                      # 🔷 Main HTML entry point
+├── style.css                       # 🎨 Base styling for layout, fonts, sections
+├── script.js                       # 🔧 Loads components + loader logic
+├── README.md                       # 📄 Project description, links, usage
+│
+├── /components/                    # 🧩 HTML component sections (loaded via JS)
+│   ├── navbar.html
+│   ├── loader.html
+│   ├── brand-kits.html
+│   ├── graph-section.html
+│   └── testimonials.html
+│
+├── /styles/                        # 🎨 Additional/optional stylesheets
+│   ├── dark.css                    # 🌙 Dark mode styles
+│   └── responsive.css              # 📱 Media queries for responsiveness
+│
+├── /scripts/                       # 🧠 JS files for effects and interactivity
+│   ├── darkmode.js                 # Dark/light mode toggle + persistence
+│   ├── ripple.js                   # Button ripple effect
+│   ├── chart.js                    # Chart.js bar chart setup
+│   └── scroll-effects.js           # Intersection observer for animations
+│
+├── 
 
 
 ## 🚀 Getting Started
@@ -208,5 +217,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Responsive Design Patterns](https://web.dev/responsive-web-design-basics/)
 
 ---
+## 🤖 AI Tools Used
 
-**Built with ❤️ for modern web experiences**#
+This project was built using the help of AI development tools to enhance speed, creativity, and efficiency:
+
+- **ChatGPT** – Used for generating component structures, CSS layouts, JavaScript logic (e.g., ripple effect, dark mode, scroll animation), and troubleshooting bugs.
+- **Claude AI** – Assisted in refining responsive design ideas and optimizing semantic HTML structure.
+
+All customizations, integration, and final assembly were done manually to fit the design and functionality required for the challenge.
