@@ -189,10 +189,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- **Website**: [Your Website URL]
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Twitter**: [@YourTwitterHandle]
+- **Website**: https://brandforge-digitalmarketing.netlify.app/
+- **Email**: cypheriq.ai@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/saisriramv/
 
 ## 🙏 Acknowledgments
 
